@@ -16,10 +16,10 @@ class Mod implements IPostDBLoadMod {
         const StocksOverhaul = require("./StocksOverhaul")
 
         if (fs.existsSync(this.modPath)) {
-            logger.log('ProgramK Core mod Detected, Skipping Extended Stock Slots execution', "blue")
+            logger.log('Extended Stock Slots: ProgramK mod Detected, Skipping Extended Stock Slots execution', "blue")
         } 
         else {
-            logger.log('ProgramK Core mod not Detected, Executing Stock Slots', "blue")
+            logger.log('Extended Stock Slots: ProgramK mod not Detected, Executing Stock Slots', "blue")
             StocksOverhaul.execute()
         }
     }

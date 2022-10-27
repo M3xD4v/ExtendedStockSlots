@@ -1,0 +1,7 @@
+{
+	"EnabledStockSlots": {
+		"Slot2": false,
+		"Slot3": true,
+		"Slot4": false
+	}
+}
